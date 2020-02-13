@@ -18,11 +18,11 @@ a {
 }
 
 a:hover {
-  color: #18fe03f3;
+  color: #7cfe03f3
 }
 
 .text-primary {
-  color: #18fe03f3 !important;
+  color: #7cfe03f3 !important;
 }
 
 h1,
@@ -97,8 +97,8 @@ img::-moz-selection {
   border-color: #fed136;
 }
 .btn-green{
-  background-color: #36fe68;
-  border-color: #36fe68;
+  background-color: #7cfe03f3;
+  border-color: #7cfe03f3;
   color:white;
 }
 
@@ -113,7 +113,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color:rgba(49, 54, 124, 1)!important;
+  background-color:rgb(27, 78, 145)!important;
 }
 /*Botón de menú en la versión móvil*/
 #mainNav .navbar-toggler {
@@ -140,7 +140,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #18fe03f3;
+  color: #7cfe03f3
 }
 
 /*Estilos de la lista del navbar*/
@@ -159,7 +159,7 @@ img::-moz-selection {
 
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #18fe03f3;
+  color: #7cfe03f3
 }
 
 @media (min-width: 992px) {
