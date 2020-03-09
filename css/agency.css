@@ -140,7 +140,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #7cfe03f3
+  color: #7cfe03f3;
 }
 
 /*Estilos de la lista del navbar*/
@@ -157,9 +157,9 @@ img::-moz-selection {
   letter-spacing: 1px;
 }
 
-
+/*Color change on navbar*/
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #7cfe03f3
+  color: #7cfe03f3;
 }
 
 @media (min-width: 992px) {
@@ -635,6 +635,54 @@ header.masthead .intro-text .intro-heading {
   margin-top: 0;
 }
 
+
+/* Contact Section
+--------------------------------*/
+
+#contacto {
+  padding: 60px 0;
+}
+
+#contacto .contact-info {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#contacto .contact-info i {
+  font-size: 48px;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #18d26e;
+}
+
+#contacto .contact-info address,
+#contacto .contact-info p {
+  margin-bottom: 0;
+  color: #000;
+}
+
+#contacto .contact-info h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #999;
+}
+
+#contacto .contact-info a {
+  color: #000;
+}
+
+#contacto .contact-info a:hover {
+  color: #18d26e;
+}
+
+#contacto .contact-address,
+#contacto .contact-phone,
+#contacto .contact-email {
+  margin-bottom: 20px;
+}
+/**/
 section#contact {
   background-color: #212529;
   background-image: url("../img/map-image.png");
