@@ -113,7 +113,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color:rgb(27, 78, 145)!important;
+  background-color:rgb(27, 78, 145)!important; /*Color de la barra de navegación mainNav*/
 }
 /*Botón de menú en la versión móvil*/
 #mainNav .navbar-toggler {
@@ -135,10 +135,18 @@ img::-moz-selection {
   letter-spacing:3px;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 } 
+/*Logo*/
+/*MENSAJE: CORREGIR POSICIÓN DEL LOGO*/
 .navbar #logo {
   float:left;
-}
+  display:inline-block;
 
+}
+#logo_img {
+  height:auto;
+  width:200px;
+  display:inline-block;
+}
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   color: #7cfe03f3;
 }
@@ -169,6 +177,7 @@ img::-moz-selection {
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
     background-color: transparent;
+  
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
