@@ -219,7 +219,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
- /* background-image: url("../img/portfolio/fondo_metrum2.png");*/
+  background-image: url("../img/portfolio/fondo_metrum2.png");
   background-color:rgba(12, 69, 145);
   background-repeat: no-repeat;
   background-attachment: scroll;
