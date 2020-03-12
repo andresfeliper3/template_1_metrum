@@ -159,7 +159,7 @@ img::-moz-selection {
 }
 #logo_img {
   height:auto;
-  width:200px;
+  width:180px;
   display:inline-block;
 }
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
