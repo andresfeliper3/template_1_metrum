@@ -29,9 +29,11 @@ body {z
 
 p {
   line-height: 1.75;
-  text-align:justify;
+ 
 }
-
+p.text{
+  text-align:left;
+}
 a {
   color: #fed136;
 }
@@ -63,6 +65,9 @@ h6 {
   margin-top: 0;
   margin-bottom: 15px;
 }
+.h3-title {
+  color:rgb(27, 78, 145); 
+}
 
 .page-section h3.section-subheading {
   font-size: 16px;
@@ -72,6 +77,13 @@ h6 {
   text-transform: none;
   font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
+.page-section h4.section-subheading {
+  font-size: 30px;
+  font-weight: bold;
+  color:black;
+  font-family:'Segoe UI';
+}
+
 
 @media (min-width: 768px) {
   section {
@@ -277,17 +289,17 @@ header.masthead .intro-text .intro-heading {
 .post-bg {
   padding:10px;
   border-radius:10px;
-  background-color:#97979b;
-  box-shadow: 2px 2px 2px 2px #97979b;
+  background-color:white;
+ /* box-shadow: 2px 2px 2px 2px #97979b;*/
   
 }
 .post-bg p {
   color:black;
-  font-weight:bold;
+  
 }
 
 .whole-post {
-  margin-top: 20px;
+  margin-top: 20  px;
 }
 /*Portafolio*/
 
