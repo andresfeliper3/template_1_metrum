@@ -1,0 +1,13 @@
+ 
+@font-face {
+    font-family: 'Neuropol';
+    font-style: normal; 
+    font-weight: normal;
+    src: local('Neuropol'), url('NEUROPOL.woff') format('woff'),
+          url('../fonts/NEUROPOL.eot') format('embedded-opentype'), 
+          url('../fonts/NEUROPOL.ttf') format('truetype');
+    }
+   @font-face {
+    font-family:'Neusa';
+    src: url('../fonts/neusa-demibold.otf') format('opentype');
+  }
