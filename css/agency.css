@@ -3,14 +3,33 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
-
-body {
+/*
+ @font-face {
+   font-family:'neuropol';
+   src: url('fonts/NEUROPOL.eot'),
+        url('fonts/neuropol.woff') format('woff'),
+        url('fonts/neuropol.ttf') format('truetype');
+ }*/
+ 
+@font-face {
+  font-family: 'Neuropol';
+  font-style: normal; 
+  font-weight: normal;
+  src: local('Neuropol'), url('NEUROPOL.woff') format('woff'),
+        url('fonts/NEUROPOL.eot'), url('fonts/NEUROPOL.ttf') format('truetype');
+  }
+ @font-face {
+  font-family:'neusa';
+  src: url('fonts/neusa-demibold.otf') format('opentype');
+}
+body {z
   overflow-x: hidden;
-  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'neuropol','Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 p {
   line-height: 1.75;
+  text-align:justify;
 }
 
 a {
@@ -32,7 +51,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: 'Neuropol';
 }
 
 .page-section {
@@ -113,7 +132,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color:rgb(27, 78, 145)!important; /*Color de la barra de navegación mainNav*/
+  background-color:rgb(27, 78, 145); /*Color de la barra de navegación mainNav*/
 }
 /*Botón de menú en la versión móvil*/
 #mainNav .navbar-toggler {
@@ -124,7 +143,7 @@ img::-moz-selection {
   color: white;
   border: 0;
   font-weight:700;
-  background-color:rgba(49, 54, 124, 0.9);;
+  background-color:rgb(27, 78, 145,0.9);
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
@@ -189,7 +208,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color:rgba(49, 54, 124, 0.9);
+    background-color:rgb(27, 78, 145,0.9);
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -200,10 +219,10 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/portfolio/fondo_metrum2.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
 }
 
@@ -254,6 +273,22 @@ header.masthead .intro-text .intro-heading {
   text-transform: none;
 }
 
+/* My Edit*/
+.post-bg {
+  padding:10px;
+  border-radius:10px;
+  background-color:#97979b;
+  box-shadow: 2px 2px 2px 2px #97979b;
+  
+}
+.post-bg p {
+  color:black;
+  font-weight:bold;
+}
+
+.whole-post {
+  margin-top: 20px;
+}
 /*Portafolio*/
 
 .section-header h3 {
