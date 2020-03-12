@@ -18,6 +18,10 @@ p {
 p.text{
   text-align:left;
 }
+.neusa-white {
+  font-family:'Neusa';
+  color:white;
+}
 a {
   color: #fed136;
 }
@@ -211,11 +215,12 @@ img::-moz-selection {
     padding: 12px 0;
   }
 }
-
+/*Big background color or image*/
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/portfolio/fondo_metrum2.png");
+ /* background-image: url("../img/portfolio/fondo_metrum2.png");*/
+  background-color:rgba(12, 69, 145);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center;
@@ -696,6 +701,24 @@ header.masthead .intro-text .intro-heading {
   margin-bottom: 10px;
   color: #18d26e;
 }
+/**/
+.contact-left {
+  background-color: #f8f9fa!important;
+  height:200px;
+  
+  
+}
+.contact-right {
+  background-color: rgb(10, 77, 153); 
+  height:300px;
+  padding-top:70px;
+}
+
+
+#logo_metrum_contacto {
+  height:auto;
+  width:400px;
+}
 
 #contacto .contact-info address,
 #contacto .contact-info p {
@@ -711,9 +734,12 @@ header.masthead .intro-text .intro-heading {
   text-transform: uppercase;
   color: #999;
 }
-
+/*Links internos del bloque de contacto*/
 #contacto .contact-info a {
-  color: #000;
+  color:white;
+}
+#img_sombra {
+  margin-left:100px;
 }
 
 #contacto .contact-info a:hover {
