@@ -13,7 +13,7 @@ body {
 
 p {
   line-height: 1.75;
- 
+  font-family:'Neusa';
 }
 p.text{
   text-align:left;
@@ -23,11 +23,11 @@ p.text{
   color:white;
 }
 a {
-  color: #fed136;
+  color: #7cfe03f3;
 }
 
 a:hover {
-  color: #7cfe03f3
+  color: #7cfe03f3;
 }
 
 .text-primary {
@@ -219,7 +219,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
- /* background-image: url("../img/portfolio/fondo_metrum2.png");*/
+  background-image: url("../img/portfolio/fondo_metrum2.png");
   background-color:rgba(12, 69, 145);
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -682,8 +682,17 @@ header.masthead .intro-text .intro-heading {
   margin-top: 0;
 }
 
-
-/* Contact Section
+/*
+ Sección Nosotros
+ ------------------------
+*/
+.li-element {
+  padding-left:10px;
+}
+.li-element p{
+  font-size:20px;
+}
+/* Sección Contacto
 --------------------------------*/
 
 #contacto {
