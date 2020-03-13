@@ -713,10 +713,16 @@ header.masthead .intro-text .intro-heading {
 }
 /**/
  
-
+.contact-right-info {
+  position:absolute;
+  bottom:12px;
+  left:40px;
+  text-align:left;
+}
 .contact-left {
   background-color: #f8f9fa!important;
   height:200px;
+
 }
 @media (min-width: 1025px){
   .contact-center {
@@ -767,6 +773,7 @@ header.masthead .intro-text .intro-heading {
 #logo_metrum_contacto {
   height:auto;
   width:340px;
+  
 }
 #iconos_metrum_contacto {
   height:300px;
