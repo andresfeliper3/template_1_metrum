@@ -26,6 +26,9 @@ p.text{
 a {
   color: #7cfe03f3;
 }
+a.white-link {
+  color:white;  
+}
 
 a:hover {
   color: #7cfe03f3;
@@ -758,6 +761,19 @@ header.masthead .intro-text .intro-heading {
 } 
 
 
+.contact-blue-box {
+  background-color:rgb(10, 77, 153);
+  height:100px;
+  width:auto;
+  padding-top:35px;
+}
+.contact-blue-box-text h4 {
+  color:white;
+  font-size:20px;
+}
+.contact-blue-box-text {
+  
+}
 .contact-right {
   background-color: rgb(10, 77, 153); 
   height:300px;
@@ -769,6 +785,10 @@ header.masthead .intro-text .intro-heading {
     height:auto;
     width:100px;
   }
+}
+#icon_metrum_contacto {
+  height:40px;
+  width:auto;
 }
 #logo_metrum_contacto {
   height:auto;
