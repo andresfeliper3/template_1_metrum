@@ -718,20 +718,36 @@ header.masthead .intro-text .intro-heading {
   background-color: #f8f9fa!important;
   height:200px;
 }
-@media (min-width: 768px){
+@media (min-width: 1025px){
   .contact-center {
     height:300px;
     position:relative;
-    left:60px;
+    left:3.9rem;
     z-index:2;
   }
 } 
-@media (max-width: 768px){
+@media (max-width: 599px){
   .contact-center {
     height:300px;  
     z-index:2;
     position:relative;
-    left:12px; 
+    left:1.4rem; 
+  }
+} 
+@media (min-width: 600px) and (max-width:768px){
+  .contact-center {
+    height:300px;  
+    z-index:2;
+    position:relative;
+    left:1.9rem; 
+  }
+} 
+@media (min-width: 768px) and (max-width:1025px){
+  .contact-center {
+    height:300px;  
+    z-index:2;
+    position:relative;
+    left:2.8rem; 
   }
 } 
 
