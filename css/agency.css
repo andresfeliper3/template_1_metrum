@@ -722,11 +722,15 @@ header.masthead .intro-text .intro-heading {
   height:300px;
   padding-top:70px;
 }
-
-
+@media (max-width: 768px) {
+  #logo_metrum_contacto {
+    height:auto;
+    width:100px;
+  }
+}
 #logo_metrum_contacto {
   height:auto;
-  width:400px;
+  width:340px;
 }
 
 #contacto .contact-info address,
@@ -747,8 +751,11 @@ header.masthead .intro-text .intro-heading {
 #contacto .contact-info a {
   color:white;
 }
+
 #img_sombra {
-  margin-left:100px;
+  
+  height:auto;
+  width:100%;
 }
 
 #contacto .contact-info a:hover {
