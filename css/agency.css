@@ -17,6 +17,7 @@ p {
 }
 p.text{
   text-align:left;
+  font-size:20px;
 }
 .neusa-white {
   font-family:'Neusa';
@@ -711,6 +712,8 @@ header.masthead .intro-text .intro-heading {
   color: #18d26e;
 }
 /**/
+ 
+
 .contact-left {
   background-color: #f8f9fa!important;
   height:200px;
@@ -737,7 +740,7 @@ header.masthead .intro-text .intro-heading {
 #contacto .contact-info p {
   margin-bottom: 0;
   color: #000;
-  font-family:'Neusa';
+  /*neusa*/
 }
 
 #contacto .contact-info h3 {
