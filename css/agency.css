@@ -725,6 +725,7 @@ header.masthead .intro-text .intro-heading {
 .contact-left {
   background-color: #f8f9fa!important;
   height:200px;
+  z-index:2;
 
 }
 /*@media contact-box*/
@@ -778,8 +779,16 @@ header.masthead .intro-text .intro-heading {
   }
   
 }
-
-
+@media (max-width: 768px){
+  #personaje_metrum{ 
+    display:none;
+  }
+}
+#personaje_metrum{ 
+  z-index:3;
+  height:auto;
+width:90px;
+}
 .contact-blue-box {
   background-color:rgb(10, 77, 153);
   height:100px;
@@ -788,11 +797,13 @@ header.masthead .intro-text .intro-heading {
   padding-left:5px;
   position:relative;
   top: -20px;
+  z-index:2;
 }
 .contact-blue-box-text {
   color:white;
   font-size:20px;
   text-align:center;
+  z-index:2;
 }
 
 .contact-right {
