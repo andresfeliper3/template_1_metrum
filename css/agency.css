@@ -131,8 +131,11 @@ img::-moz-selection {
   color: white;
 }
 
-.btn-primary:active, .btn-primary:focus, .btn-green:active, .btn-green:focus {
+.btn-primary:active, .btn-primary:focus, .btn-green:active,.btn-green:focus {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+}
+.btn-green:hover {
+  color:white;
 }
 
 #mainNav {
@@ -886,10 +889,10 @@ width:90px;
 }
 /**/
 section#contact {
-  background-color: #212529;
-  background-image: url("../img/map-image.png");
+  background-color: rgb(27, 78, 145); ;
+ /* background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center;*/
 }
 
 section#contact .section-heading {
