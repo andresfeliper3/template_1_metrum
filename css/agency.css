@@ -727,7 +727,8 @@ header.masthead .intro-text .intro-heading {
   height:200px;
 
 }
-@media (min-width: 1025px){
+/*@media contact-box*/
+@media (min-width: 1200px){
   .contact-center {
     height:300px;
     position:relative;
@@ -735,15 +736,24 @@ header.masthead .intro-text .intro-heading {
     z-index:2;
   }
 } 
-@media (max-width: 599px){
+@media (min-width: 1024px) and (max-width:1200px){
   .contact-center {
-    height:300px;  
-    z-index:2;
+    height:300px;
     position:relative;
-    left:1.4rem; 
+    left:3.6rem;
+    z-index:2;
   }
 } 
-@media (min-width: 600px) and (max-width:768px){
+@media (min-width: 980px) and (max-width:1024px) {
+  .contact-center {
+    height:300px;
+    position:relative;
+    left:3.5rem;
+    z-index:2;
+  }
+} 
+
+@media (min-width: 576px) and (max-width:768px){
   .contact-center {
     height:300px;  
     z-index:2;
@@ -751,7 +761,7 @@ header.masthead .intro-text .intro-heading {
     left:1.9rem; 
   }
 } 
-@media (min-width: 768px) and (max-width:1025px){
+@media (min-width: 768px) and (max-width:991px){
   .contact-center {
     height:300px;  
     z-index:2;
@@ -759,6 +769,15 @@ header.masthead .intro-text .intro-heading {
     left:2.8rem; 
   }
 } 
+@media (max-width:575px) {
+  .contact-center {
+    height:300px;  
+    z-index:2;
+    position:relative;
+    left:1px;
+  }
+  
+}
 
 
 .contact-blue-box {
@@ -766,6 +785,8 @@ header.masthead .intro-text .intro-heading {
   height:100px;
   width:auto;
   padding-top:35px;
+  position:relative;
+  top:-20px;
 }
 .contact-blue-box-text h4 {
   color:white;
@@ -775,7 +796,6 @@ header.masthead .intro-text .intro-heading {
 .contact-right {
   background-color: rgb(10, 77, 153); 
   height:300px;
-  padding-top:70px;
   z-index:1;
 }
 @media (max-width: 768px) {
@@ -784,20 +804,37 @@ header.masthead .intro-text .intro-heading {
     width:100px;
   }
 }
+
 #icon_metrum_contacto {
   height:40px;
   width:auto;
 }
 #logo_metrum_contacto {
   height:auto;
-  width:340px;
+  width:310px;
   
+}
+@media (min-width:577px){
+  #iconos_metrum_contacto2{
+    display:none;
+  }
+}
+@media (max-width:576px) {
+  .contact-center {
+    display:none;
+  }
+  #iconos_metrum_contacto2{
+    height:300px;
+    width: auto;
+    position:relative;
+    left:0
+  }
 }
 #iconos_metrum_contacto {
   height:300px;
-  width: auto;
-  
+  width: auto; 
 }
+
 
 #contacto .contact-info address,
 #contacto .contact-info p {
