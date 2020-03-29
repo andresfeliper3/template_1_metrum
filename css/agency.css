@@ -82,6 +82,11 @@ h6 {
     padding: 150px 0;
   }
 }
+/*Imágenes dentro de sus elementos padres*/
+.img-inside {
+  width:100%;
+  height:auto;
+}
 
 ::-moz-selection {
   background: #fed136;
