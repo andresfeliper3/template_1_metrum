@@ -899,8 +899,9 @@ header.masthead .intro-text .intro-heading {
 section#contact {
   /*background-color: rgb(27, 78, 145);*/
   background-image: url("../img/contact/fondo_gris.png");
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
+  
 }
 
 section#contact .section-heading {
