@@ -1,0 +1,15 @@
+#mainNav {
+    background-color:rgb(27, 78, 145) !important; /*Color de la barra de navegación mainNav*/
+  }
+  #logo_header {
+      width:400px;
+      height:auto;
+    
+  }
+  p {
+      font-size:25px;
+  }
+  #img_vision_metrum {
+      width:400px;
+      height:auto;
+  }

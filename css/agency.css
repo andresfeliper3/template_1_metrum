@@ -169,7 +169,7 @@ img::-moz-selection {
 /*Logo*/
 /*MENSAJE: CORREGIR POSICIÓN DEL LOGO*/
 .navbar #logo {
-  float:left;
+  /*float:left;*/
   display:inline-block;
 
 }
@@ -905,7 +905,7 @@ section#contact {
 }
 
 section#contact .section-heading {
-  color: black;
+  color: black;;
 }
 
 section#contact .form-group {
