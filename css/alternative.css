@@ -13,3 +13,22 @@
       width:400px;
       height:auto;
   }
+
+/*Identificadores de imágenes*/
+
+#img_pulsar {
+    width: 600px;
+    height:auto;
+}
+
+@media (max-width: 768px) {
+    #img_pulsar {
+        width:260px;
+        height:auto;
+    }
+}
+
+#waleker1 {
+    height:250px;
+    width:auto;
+}
