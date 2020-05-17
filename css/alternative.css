@@ -47,3 +47,38 @@
     height:350px;
     width:auto;
 }
+
+
+
+
+/** Página de servicios*/
+.bg-blue {
+    background-color:rgb(27, 78, 145,0.9);
+}
+.curved-borders {
+    border-radius:15px;
+}
+
+#esfera_metrum {
+    width:300px;
+    height:auto;
+}
+#personaje_servicios {
+    left:20px;
+    top:10px;
+    position:relative;
+}
+
+@media (max-width:991px) {
+    #esfera_metrum{
+        width:200px;
+        height:auto;
+    }
+}
+
+@media (max-width:991px) {
+    #personaje_servicios{
+        height:150px;
+        width:auto;
+    }
+}
