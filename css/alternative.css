@@ -97,6 +97,10 @@
     width:auto;
     height:70px;
 }
+
+.small-gray-banner:hover{
+    cursor:pointer;
+}
 .small-gray-banner p {
     font-size: 1.3em;
 }
@@ -113,4 +117,16 @@
 .drag-to-left {
     margin-left:-100px;
     
+}
+
+/*Carousel*/
+#carousel1{
+    margin-top:80px;
+}
+p.text-small{
+    font-size:20px;
+}
+.proof {
+    margin-top:20px;
+    position:relative;
 }
