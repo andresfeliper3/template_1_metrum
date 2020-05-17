@@ -9,6 +9,7 @@
   p {
       font-size:25px;
   }
+
   #img_vision_metrum {
       width:400px;
       height:auto;
@@ -52,12 +53,12 @@
 
 
 /** Página de servicios*/
-.bg-blue {
-    background-color:rgb(27, 78, 145,0.9);
-}
-.curved-borders {
+.seccion1{
+    background-color:rgb(27, 78, 145,1);
     border-radius:15px;
+    padding-top:10px;
 }
+
 
 #esfera_metrum {
     width:300px;
@@ -71,8 +72,9 @@
 
 @media (max-width:991px) {
     #esfera_metrum{
-        width:200px;
+        width:190px;
         height:auto;
+        z-index:2;
     }
 }
 
@@ -81,4 +83,16 @@
         height:150px;
         width:auto;
     }
+}
+
+.small-gray-banner {
+    background-color: rgb(95, 96, 99);
+    border-radius:30px;
+    padding-left:20px;
+    z-index:3;
+    position:relative;
+    left:0;
+}
+.small-gray-banner p {
+    font-size: 1.3em;
 }
