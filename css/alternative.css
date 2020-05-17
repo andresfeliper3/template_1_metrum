@@ -88,11 +88,29 @@
 .small-gray-banner {
     background-color: rgb(95, 96, 99);
     border-radius:30px;
-    padding-left:20px;
+    padding-left:70px;
+    padding-right:30px;
+    padding-bottom:-10px;
     z-index:3;
     position:relative;
-    left:0;
+    margin-left:-40px;
+    width:auto;
+    height:70px;
 }
 .small-gray-banner p {
     font-size: 1.3em;
+}
+
+.top-buffer { 
+    margin-top:15px; 
+}
+
+.no-margin-top {
+    margin-top:-27px;
+    position:relative;
+}
+
+.drag-to-left {
+    margin-left:-100px;
+    
 }
