@@ -232,3 +232,27 @@ p.text-small{
 .in-list-item {
     margin-top:10px;
 }
+
+/* Servicios: Construcción de competencias */
+
+.container_img{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+}
+ 
+.text-on-img{
+    position: absolute;
+    top: 53%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+    font-weight:bold;
+   
+}
+
+.text-on-right {
+    line-height: 100%;
+    font-size:20px;
+    margin-left:10px;
+}
