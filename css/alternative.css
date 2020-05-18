@@ -68,6 +68,7 @@
     left:20px;
     top:10px;
     position:relative;
+    
 }
 
 
@@ -195,7 +196,7 @@ p.text-small{
 }
 
 .bg-green {
-    background-color: rgb(148, 218, 56);
+    background-color: #d2de38; /* Green color*/
 }
 
 @media (max-width:991px){
@@ -255,4 +256,33 @@ p.text-small{
     line-height: 100%;
     font-size:20px;
     margin-left:10px;
+}
+
+/*Fábrica de soluciones*/
+
+.post-square {
+    box-shadow: 3px 3px 3px 3px #999;
+    -webkit-box-shadow: 3px 3px 3px 3px #999;
+    -moz-box-shadow: 3px 3px 3px 3px #999;
+    border-radius: 10px 10px 40px 40px;
+    margin-top:20px;    
+}
+.post-square-title {
+    border-radius:10px 10px 0px 0px;
+    height:40px;
+    text-align:center;
+
+}
+.post-square-title h5 {
+    line-height: 40px;
+}
+.post-square-content {
+    padding-top:5px;
+    padding-bottom:10px;
+    text-align: center;
+    margin-top:5px; 
+}
+.post-square-content p {
+    line-height:110%;
+    font-size:130%;
 }

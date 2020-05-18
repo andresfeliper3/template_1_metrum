@@ -181,7 +181,7 @@ img::-moz-selection {
   display:inline-block;
 }
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #7cfe03f3;
+  color: #d2de38;
 }
 
 /*Estilos de la lista del navbar*/
@@ -200,7 +200,7 @@ img::-moz-selection {
 
 /*Color change on navbar*/
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #7cfe03f3;
+  color: #d2de38; /*#7cfe03f3;*/
 }
 
 @media (min-width: 992px) {
