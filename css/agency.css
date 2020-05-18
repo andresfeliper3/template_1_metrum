@@ -33,7 +33,9 @@ a.white-link {
 a:hover {
   color: #7cfe03f3;
 }
-
+.text-blue {
+  color:rgb(10, 77, 153);
+}
 .text-primary {
   color: #7cfe03f3 !important;
 }

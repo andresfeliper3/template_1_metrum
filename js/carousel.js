@@ -21,3 +21,5 @@ $('#stage4').click(function()
     $('#carousel1').carousel(3);
 });
 
+/*Div's sizes */
+

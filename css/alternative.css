@@ -188,6 +188,7 @@ p.text-small{
 }
 .arrow-size {
     font-size:50px;
+    color:rgb(155, 155, 155);
 }
 .bg-blue {
     background-color: rgb(27, 78, 145);
@@ -207,4 +208,27 @@ p.text-small{
 }
 .fa-arrow-circle-down{
     display:none;
+}
+/*Lista en cajas*/
+.squared-box {
+    border-radius:4%;
+    text-align: center;
+    margin-top:7px;
+    height:110px;
+    width:110px;
+}
+.squared-second-box {
+    border-radius:4%;
+    text-align: center;
+    margin-top:18px;
+    height:110px;
+    width:110px;
+    
+}
+.in-square-text {
+    line-height: 110px;
+    font-size:70px;
+}
+.in-list-item {
+    margin-top:10px;
 }
