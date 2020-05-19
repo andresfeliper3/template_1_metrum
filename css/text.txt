@@ -1,5 +1,10 @@
 Cambio hecho sobra la rama servicios
 
 cambio hecho sobre el master
+<<<<<<< HEAD
  
  último cambio, hecho sobre master
+=======
+
+cambio hecho sobre el otro
+>>>>>>> otro
