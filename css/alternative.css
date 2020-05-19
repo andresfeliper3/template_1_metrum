@@ -286,3 +286,35 @@ p.text-small{
     line-height:110%;
     font-size:130%;
 }
+.middle-person {
+    margin-left:12px;
+    margin-top:20px;
+}
+#personaje2_servicios{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.green-white-circle{
+    border-radius:100%;
+    width:200px;
+    height:200px;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 15px solid #d2de38;
+    text-align:center;  
+    padding-top: 50px;
+}
+
+.green-white-circle p{
+    line-height: 100%;
+    margin:auto;
+    font-size:23px;
+}
+
+
+  
