@@ -84,10 +84,36 @@
     width:auto;
     height:70px;
 }
-
-@media (max-width:991px) {
+@media(max-width:1199px) and (min-width:992px) {
+    #esfera_metrum {
+        width:300px;
+        height:auto;
+        z-index:2;
+        margin-left:-30px;
+    }
+}
+@media(max-width:991px) and (min-width:768px) {
+    #esfera_metrum {
+        width:10px;
+        height:auto;
+        z-index:2;
+    }
+    .small-gray-banner{
+        background-color: rgb(95, 96, 99);
+        border-radius:30px;
+        padding-left:35px;
+        padding-right:10px;
+        padding-bottom:23px !important;
+        z-index:3;
+        position:relative;
+        margin-left:-10px;
+        width:auto;     
+        height:20px;
+    }
+}
+@media (max-width:767px) {
     #esfera_metrum{
-        width:100px;
+        width:200px;
         height:auto;
         z-index:2;
     }
