@@ -126,8 +126,18 @@
         position: relative;
     }
     .small-gray-banner p {
-        font-size: 200px !important;
+        font-size: 15px !important;
     }
+    #carousel1{
+        margin-top:0px !important;
+    }
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        margin-top:-30px;
+    }
+    p.text-small {
+        font-size:14px !important; 
+    }
+    
 }
 @media (max-width:767px) {
     #esfera_metrum{
