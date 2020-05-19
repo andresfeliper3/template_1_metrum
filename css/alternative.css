@@ -27,6 +27,23 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+/*HOME*/
+.seccion-white{
+    background-color:rgb(27, 78, 145,1);
+    border-radius:15px;
+    padding-top:10px;
+}
+
+#smaller-ssi-img {
+    width:auto;
+    height:100px;
+    margin:auto;
+}
+#centered-button {
+    margin:auto;
+}
+
 /*Sobre nosotros*/
 .mini-top-margin{ 
     margin-top:50px;
@@ -255,6 +272,7 @@
 /*Carousel*/
 #carousel1{
     margin-top:80px;
+    height:200px;
 }
 p.text-small{
     font-size:20px;
