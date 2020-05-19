@@ -43,6 +43,30 @@
 #centered-button {
     margin:auto;
 }
+.card{
+    height:250px;
+    padding-bottom:-20px;
+    
+}
+.card-img-top{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height:95%;
+    width:auto;
+}
+.card-body-up {
+    height:200px;
+    position:relative;
+}
+.card-body-down {
+    position:absolute;
+    padding-top:5px;
+    bottom:0;
+    height:50px;
+    width:100%;
+}
 
 /*Sobre nosotros*/
 .mini-top-margin{ 
