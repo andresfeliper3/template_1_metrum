@@ -15,6 +15,12 @@
       height:auto;
   }
 
+  .bg-blue{
+    background-color: rgb(27, 78, 145)
+  }
+  .bg-green {
+      background-color: #d2de38;
+  }
 /*Identificadores de imágenes*/
 
 #img_pulsar {
@@ -216,54 +222,19 @@ p.text-small{
 }
 
 /*Ruta*/
+@media(min-width:992px) {
+    .circle-number {
+        font-size:80px;
+        flex: 0 0 120px;
+    }
+}
 
-.mx-auto 
-{
-    border:1px solid black;
-    width:205px;
-    height:205px;
-    border-radius:10px;
-    padding-top:10px;
+.timeline-image {
     display: flex;
     justify-content: center;
-    align-items: center
-}
-.box-text {
-    color:white;
-    font-size:20px;
-    text-align:center;
-    vertical-align:middle;
-    
-}
-@media (min-width:991px) {
-    .arrow-size {
-        font-size:50px;
-        margin-top:60px;
-    }
-}
-.arrow-size {
-    font-size:50px;
-    color:rgb(155, 155, 155);
-}
-.bg-blue {
-    background-color: rgb(27, 78, 145);
+    align-items: center;
 }
 
-.bg-green {
-    background-color: #d2de38; /* Green color*/
-}
-
-@media (max-width:991px){
-    .fa-arrow-circle-right{
-        display:none;
-    }
-    .fa-arrow-circle-down {
-        display:block !important;
-    }
-}
-.fa-arrow-circle-down{
-    display:none;
-}
 /*Lista en cajas*/
 .squared-box {
     border-radius:4%;
