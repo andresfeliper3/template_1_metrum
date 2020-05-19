@@ -191,13 +191,13 @@
         z-index:2;
     }
     #personaje_servicios{
-        height:120px;
+        height:220px;
         width:auto;
         z-index:5;
         margin-top:20px;
     }
     .drag-to-left {
-        margin-left:-20px !important;
+        margin-left:0px !important;
         position: relative;
     }
     .small-gray-banner{
@@ -208,19 +208,23 @@
         padding-bottom:23px !important;
         z-index:3;
         position:relative;
-        margin-left:-10px;
+        margin-left:40px;
         width:auto;     
-        height:20px;
+        height:38px;
     }
+    #carousel_container {
+        margin-left:43px;   
+    }
+    
     .small-gray-banner > p {
-        font-size: 0.6em !important;
+        font-size: 0.8em !important;
     }
     .no-margin-top {
         margin-top:-25px !important;
         position:relative;
     }
     .top-buffer { 
-        margin-top:7px !important; 
+        margin-top:17px !important; 
     }
     p.text-small {
         font-size:14px !important; 
