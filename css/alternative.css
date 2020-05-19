@@ -21,6 +21,45 @@
   .bg-green {
       background-color: #d2de38;
   }
+
+.centered-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Sobre nosotros*/
+.mini-top-margin{ 
+    margin-top:50px;
+}
+#mision_img {
+    height:auto;
+    width:250px;  
+    margin-top:-15px;  
+}
+.no-space {
+    line-height: 130%;
+}
+.colored-banners {
+    width: 400px;
+    height:auto;
+}
+.text-on-banner{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-weight:bold;
+   
+}
+.banner-text {
+    font-size:20px; 
+}
+@media (max-width:991px) {
+    .margin-top-mini {
+        margin-top:40px;
+    }
+}
+
 /*Identificadores de imágenes*/
 
 #img_pulsar {
