@@ -94,21 +94,39 @@
 }
 @media(max-width:991px) and (min-width:768px) {
     #esfera_metrum {
-        width:10px;
+        width:200px;
         height:auto;
         z-index:2;
+        margin-left:-20px;
     }
-    .small-gray-banner{
+    
+    #personaje_servicios{
+        height:200px;
+        width:auto;
+        z-index:5;
+        margin-top:20px;
+        left:20px;
+        top:10px;
+        position:relative;
+    }
+    .small-gray-banner {
         background-color: rgb(95, 96, 99);
         border-radius:30px;
-        padding-left:35px;
-        padding-right:10px;
-        padding-bottom:23px !important;
+        padding-left:70px;
+        padding-right:30px;
+        padding-bottom:-10px;
         z-index:3;
         position:relative;
-        margin-left:-10px;
-        width:auto;     
-        height:20px;
+        margin-left:-40px;
+        width:auto;
+        height:40px;
+    }
+    .drag-to-left {
+        margin-left:-70px !important;
+        position: relative;
+    }
+    .small-gray-banner p {
+        font-size: 200px !important;
     }
 }
 @media (max-width:767px) {
