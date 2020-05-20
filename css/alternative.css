@@ -199,6 +199,9 @@
 }
 
 /*Identificadores de imágenes*/
+.bigger-li {
+    font-size:20px;
+}
 
 #ssi_logo {
     height:220px;
