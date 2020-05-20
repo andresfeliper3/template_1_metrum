@@ -277,7 +277,6 @@
     
 }
 
-
 .small-gray-banner {
     background-color: rgb(95, 96, 99);
     border-radius:30px;
@@ -286,7 +285,7 @@
     padding-bottom:-10px;
     z-index:3;
     position:relative;
-    margin-left:-40px;
+    margin-left:-30px;
     width:auto;
     height:70px;
 }
