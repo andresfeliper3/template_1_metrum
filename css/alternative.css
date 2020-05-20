@@ -60,7 +60,26 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+/*FOOTER*/
+#logo_decimo_arte {
+    height:auto;
+    width:90px;
+    
+}
+@media (max-width:768px) {
+    .text-small-footer {
+        font-size:6px !important;
+    }
+    .footer-info {
+        line-height: 50% !important;
+    }
+    .copyright {
+        font-size:11px !important;
+    }
+}
+.text-small-footer {
+    font-size:13px;
+}
 /*HOME*/
 .seccion-white{
     background-color:rgb(27, 78, 145,1);
