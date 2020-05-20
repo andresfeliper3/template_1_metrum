@@ -984,7 +984,13 @@ section#contact :-ms-input-placeholder {
 }
 .footer-info{
   margin-top:-20px;
-  float:right;
+  
+}
+@media(min-width:570px) {
+  .footer-info{
+    margin-top:-20px;
+    float:right;  
+  }
 }
 .footer span.copyright {
   font-size: 90%;
