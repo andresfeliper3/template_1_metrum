@@ -21,13 +21,13 @@
     position:fixed;
     top:-30px;
     right:10px;
-    z-index:5;
+    z-index:11;
     height:200px;
     width:auto;
 }
 #mainNav {
     background-color:rgb(27, 78, 145) !important; /*Color de la barra de navegación mainNav*/
-    z-index:4;
+    z-index:10;
   }
   #logo_header {
       width:400px;
@@ -318,7 +318,7 @@
         background-color: rgb(95, 96, 99);
         border-radius:30px;
         padding-left:70px;
-        padding-right:30px;
+        padding-right:25px;
         padding-bottom:-10px;
         z-index:3;
         position:relative;
@@ -370,7 +370,7 @@
         background-color: rgb(95, 96, 99);
         border-radius:30px;
         padding-left:35px;
-        padding-right:25px;
+        padding-right:20px;
         padding-bottom:23px !important;
         z-index:3;
         position:relative;
@@ -502,11 +502,16 @@ h3.text-small {
         flex: 0 0 120px;
     }
 }
+.timeline {
+    z-index:2;
+}
 
 .timeline-image {
+    position:relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index:1;
 }
 
 /*Lista en cajas*/
