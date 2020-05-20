@@ -832,6 +832,7 @@ header.masthead .intro-text .intro-heading {
   position:relative;
   top: -20px;
   z-index:2;
+  
 }
 .contact-blue-box-text {
   color:white;
@@ -851,7 +852,13 @@ header.masthead .intro-text .intro-heading {
     width:100px;
   }
 }
-
+@media (max-width: 768px) {
+  #icon_metrum_contacto {
+    height:40px;
+    width:auto;
+    margin-right:-20px !important;
+  }
+}
 #icon_metrum_contacto {
   height:40px;
   width:auto;
