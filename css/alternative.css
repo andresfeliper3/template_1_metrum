@@ -182,6 +182,10 @@
 
 /*Identificadores de imágenes*/
 
+#ssi_logo {
+    height:220px;
+    width:auto;
+}
 #img_pulsar {
     width: 600px;
     height:auto;
