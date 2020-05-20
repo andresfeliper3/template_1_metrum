@@ -1,3 +1,17 @@
+.ir-arriba{
+    display:none;
+    background-repeat:no-repeat;
+    font-size:20px;
+    color:rgb(27, 78, 145);
+    cursor:pointer;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    z-index:2;
+} 
+#ir_arriba {
+    color:#d2de38;
+}
 #mainNav {
     background-color:rgb(27, 78, 145) !important; /*Color de la barra de navegación mainNav*/
   }
