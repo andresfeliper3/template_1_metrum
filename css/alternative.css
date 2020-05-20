@@ -57,8 +57,8 @@
 #centered-button {
     margin:auto;
 }
-.card{
-    height:250px;
+.card-other{
+    height:270px;
     padding-bottom:-20px;
     
 }
@@ -429,6 +429,9 @@
 }
 p.text-small{
     font-size:20px;
+}
+h3.text-small {
+    font-size:25px;
 }
 .arrows {
     margin-top:20px;
