@@ -12,8 +12,22 @@
 #ir_arriba {
     color:#d2de38;
 }
+@media (max-width:991px) {
+    #bombillos {
+        display:none;
+    }
+}
+#bombillos {
+    position:fixed;
+    top:-30px;
+    right:10px;
+    z-index:5;
+    height:200px;
+    width:auto;
+}
 #mainNav {
     background-color:rgb(27, 78, 145) !important; /*Color de la barra de navegación mainNav*/
+    z-index:4;
   }
   #logo_header {
       width:400px;
