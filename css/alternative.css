@@ -183,12 +183,29 @@
         height:auto;
     }
 }
+#waleker_portafolio{
+    height:200px;
+    width:auto;
+}
 
-#waleker1 {
+@media (max-width:768px) {
+    .diminish {
+        height:200px !important;
+        width:auto;
+    }
+}
+.diminish {
     height:250px;
     width:auto;
 }
 
+@media (max-width:768px) {
+    .success_img {
+        width:200px !important;
+        height:auto;
+        margin-top:50px;
+    }
+}
 .success_img {
     width:350px;
     height:auto;
