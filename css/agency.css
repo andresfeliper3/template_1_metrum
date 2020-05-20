@@ -910,8 +910,15 @@ header.masthead .intro-text .intro-heading {
   color:white;
 }
 
-#img_sombra {
+@media (max-width:768px) {
+  #img_sombra {
+    margin-bottom:22px;
+    height:auto;
+    width:100%;
+  }
   
+}
+#img_sombra {
   height:auto;
   width:100%;
 }
