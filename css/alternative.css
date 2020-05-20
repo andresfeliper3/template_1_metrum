@@ -544,7 +544,9 @@ h3.text-small {
     padding-top:5px;
     padding-bottom:10px;
     text-align: center;
-    margin-top:5px; 
+    margin-top:5px;
+    padding-left:10px;
+    padding-right:10px; 
 }
 .post-square-content p {
     line-height:110%;
