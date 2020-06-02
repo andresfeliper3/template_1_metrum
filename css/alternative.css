@@ -19,10 +19,10 @@
 }
 #bombillos {
     position:fixed;
-    top:-30px;
+    top:0px;
     right:10px;
     z-index:11;
-    height:200px;
+    height:70px;
     width:auto;
 }
 #mainNav {
