@@ -214,7 +214,7 @@
 }
 
 #ssi_logo {
-    height:220px;
+    height:130px;
     width:auto;
 }
 #img_pulsar {
@@ -231,6 +231,10 @@
         width:260px;
         height:auto;
     }
+}
+.clients_img {
+    width:200px;
+    height:auto;
 }
 #waleker_portafolio{
     height:200px;
