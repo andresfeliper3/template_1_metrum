@@ -19,6 +19,9 @@
     text-shadow: 2px 1px black;
     color:white;
 }
+.sombra_general {
+    width:100%;
+}
 #ir_arriba {
     color:#d2de38;
 }
