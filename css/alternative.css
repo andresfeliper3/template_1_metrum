@@ -539,7 +539,11 @@ h3.text-small {
     .circle-number {
         font-size:80px;
         flex: 0 0 120px;
+        color:white;
     }
+}
+.circle-number {
+    color:white !important;
 }
 .timeline {
     z-index:2;
