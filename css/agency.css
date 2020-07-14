@@ -57,8 +57,11 @@ h5,
 h6 {
   font-weight: 700;
   font-family:  'Neuropol', 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  color:#1b4e91 !important ;/*Color de títulos*/
 }
-
+h3 .section-title {
+  color:#1b4e91 !important;
+}
 .page-section {
   padding: 100px 0;
 }
