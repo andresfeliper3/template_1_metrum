@@ -751,7 +751,7 @@ header.masthead .intro-text .intro-heading {
   z-index:3
 }
 .contact-left {
-  background-color: #f8f9fa!important;
+  background-color: white !important;
   height:200px;
   z-index:2;
 
