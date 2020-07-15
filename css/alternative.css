@@ -296,6 +296,13 @@
 
 
 /** Página de servicios*/
+.icono_azul {
+    margin-top:-10px;
+    height:50px;
+}
+.carousel-item {
+    margin-top:20px;
+}
 .seccion1{
     background-color:rgb(27, 78, 145,1);
     border-radius:15px;

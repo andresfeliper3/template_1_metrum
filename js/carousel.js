@@ -21,7 +21,7 @@ $(document).ready(function(){ //Hacia arriba
     irArriba();
     //Carousel options
     $('#carousel1').carousel({
-    interval: 4000  
+    interval: 3000  
     })
 });
   
