@@ -310,7 +310,12 @@
        width:300px;
     }
 }
-
+@media (max-width:300px) {
+    .esfera_metrum_2 {
+       height:auto;
+       width:200px;
+    }
+}
 
 #esfera_metrum {
     width:300px;
