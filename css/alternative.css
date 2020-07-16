@@ -296,6 +296,15 @@
 
 
 /** Página de servicios*/
+
+
+.first_icons {
+    margin-top:25px;
+    height:auto;
+    width:100px;
+    float:right;
+} 
+
 .icono_azul {
     margin-top:-10px;
     height:50px;
@@ -312,13 +321,14 @@
 }
 
 @media (max-width:991px) {
-    .esfera_metrum_2 {
+    .esfera_metrum_3 {
        height:auto;
-       width:300px;
+       width:400px;
+       margin-left:50px;
     }
 }
 @media (max-width:300px) {
-    .esfera_metrum_2 {
+    .esfera_metrum_3 {
        height:auto;
        width:200px;
     }
