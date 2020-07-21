@@ -119,11 +119,11 @@
         height:auto;
     }
     .colored-banners {
-        width:300px !important;
+        width:400px !important;
         height:auto;
     }
     .banner-text {
-        font-size:15px !important;
+        font-size:16px !important;
     }
     .card-other{
         height:220px;
@@ -192,19 +192,20 @@
     line-height: 130%;
 }
 .colored-banners {
-    width: 400px;
-    height:auto;
+    width:auto;
+    height:250px;
 }
 .text-on-banner{
     position: absolute;
-    top: 55%;
-    left: 40%;
+    top: 65%;
+    left: 62%;
     transform: translate(-50%, -50%);
     font-weight:bold;
+    font-size:15px;
    
 }
 .banner-text {
-    font-size:20px; 
+    font-size:18px; 
 }
 @media (max-width:991px) {
     .margin-top-mini {
@@ -616,6 +617,7 @@ h3.text-small {
     position: relative;
     display: inline-block;
     text-align: center;
+    height:200px;
 
 }
  
