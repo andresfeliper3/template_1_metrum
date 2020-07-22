@@ -113,6 +113,76 @@
     border:none;
     
 }
+/*Banners de Nosotros*/
+@media (max-width:400px)  {
+    .colored-banners {
+       width:500px !important;
+       height:auto !important;
+      
+   }
+   .text-on-banner{
+       position: absolute;
+       top: 52% !important;
+       left: 60% !important;
+       transform: translate(-50%, -50%);
+       font-weight:bold;  
+   }
+   .banner-text {
+       font-size:13px!important;
+   }
+}
+@media (max-width:575px) and (min-width:401px) {
+    .colored-banners {
+       width:500px !important;
+       height:auto !important;
+      
+   }
+   .text-on-banner{
+       position: absolute;
+       top: 52% !important;
+       left: 60% !important;
+       transform: translate(-50%, -50%);
+       font-weight:bold;  
+   }
+   .banner-text {
+       font-size:13px !important;
+   }
+}
+@media (max-width:768px) and (min-width:576px) {
+     .colored-banners {
+        width:400px !important;
+        height:auto !important;
+        margin-left:-100px !important;
+    }
+    .text-on-banner{
+        position: absolute;
+        top: 50% !important;
+        left: 49% !important;
+        transform: translate(-50%, -50%);
+        font-weight:bold;  
+    }
+    .banner-text {
+        font-size:13px !important;
+    }
+}
+@media (max-width:991px) and (min-width:768px) {
+    .colored-banners {
+        width:520px !important;
+        height:auto;
+        margin-left:-120px !important;
+    }
+    .text-on-banner{
+        position: absolute;
+        top: 67% !important;
+        left: 51% !important;
+        transform: translate(-50%, -50%);
+        font-weight:bold;
+    }
+    .banner-text {
+        font-size:17px !important;
+    }
+      
+}
 @media (max-width:560px) {
     #logo_header {
         width:300px;
@@ -122,9 +192,7 @@
         width:400px !important;
         height:auto;
     }
-    .banner-text {
-        font-size:16px !important;
-    }
+    
     .card-other{
         height:220px;
         padding-bottom:-20px;
@@ -194,6 +262,7 @@
 .colored-banners {
     width:auto;
     height:250px;
+    margin-left:-20px;
 }
 .text-on-banner{
     position: absolute;
@@ -329,6 +398,9 @@
        width:280px;
        margin-left:30px;
     }
+    
+    
+
 }
 @media (max-width:300px) {
     .esfera_metrum_3 {
