@@ -638,6 +638,13 @@ h3.text-small {
     margin-left:10px;
 }
 
+/*Contacto*/
+
+#icono_ubicacion {
+    height:auto;
+    width:80px;
+    padding-top:60px;
+}
 /*Fábrica de soluciones*/
 
 .post-square {
