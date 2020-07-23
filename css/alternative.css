@@ -116,24 +116,41 @@
 /*Banners de Nosotros*/
 @media (max-width:400px)  {
     .colored-banners {
+       width:300px !important;
+       height:auto !important;
+      
+   }
+   .text-on-banner{
+       position: absolute;
+       top: 40% !important;
+       left: 60% !important;
+       transform: translate(-50%, -50%);
+       font-weight:bold;  
+   }
+   .banner-text {
+       font-size:11px!important;
+   }
+}
+@media (max-width:575px) and (min-width:501px) {
+    .colored-banners {
        width:500px !important;
        height:auto !important;
       
    }
    .text-on-banner{
        position: absolute;
-       top: 52% !important;
+       top: 60% !important;
        left: 60% !important;
        transform: translate(-50%, -50%);
        font-weight:bold;  
    }
    .banner-text {
-       font-size:13px!important;
+       font-size:15px !important;
    }
 }
-@media (max-width:575px) and (min-width:401px) {
+@media (max-width:500px) and (min-width:401px) {
     .colored-banners {
-       width:500px !important;
+       width:410px !important;
        height:auto !important;
       
    }
@@ -188,10 +205,7 @@
         width:300px;
         height:auto;
     }
-    .colored-banners {
-        width:400px !important;
-        height:auto;
-    }
+    
     
     .card-other{
         height:220px;
