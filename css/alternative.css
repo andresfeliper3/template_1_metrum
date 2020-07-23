@@ -636,6 +636,10 @@
     
 }
 
+/*Productos*/
+#sens_title {
+    padding-right:60px;
+}
 /*Carousel*/
 #carousel1{
     margin-top:80px;
@@ -655,7 +659,7 @@ h3.text-small {
 /*Ruta*/
 @media(min-width:992px) {
     .circle-number {
-        font-size:80px;
+        font-size:82px;
         flex: 0 0 120px;
         color:white;
     }
