@@ -39,7 +39,7 @@
     width:auto;
 }
 #mainNav {
-    background-color:rgb(27, 78, 145) !important; /*Color de la barra de navegación mainNav*/
+    background-color:#11638a !important; /*Color de la barra de navegación mainNav*/
     z-index:10;
   }
   #logo_header {
@@ -61,7 +61,7 @@
   }
 
   .bg-blue{
-    background-color: rgb(27, 78, 145)
+    background-color: #11638a;
   }
   .bg-green {
       background-color: #d2de38;
@@ -90,11 +90,11 @@
     }
 }
 .text-small-footer {
-    font-size:13px;
+    font-size:15px;
 }
 /*HOME*/
 .seccion-white{
-    background-color:rgb(27, 78, 145,1);
+    background-color:#11638a;
     border-radius:15px;
     padding-top:10px;
 }
@@ -399,7 +399,7 @@
     margin-top:20px;
 }
 .seccion1{
-    background-color:rgb(27, 78, 145,1);
+    background-color:#11638a;
     border-radius:15px;
     padding-top:10px;
     width:100%;
